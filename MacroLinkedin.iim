@@ -30,8 +30,6 @@ WAIT SECONDS=0.2
 TAG POS=7 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
 WAIT SECONDS=0.2
 TAG POS=8 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
-WAIT SECONDS=0.2
-TAG POS=9 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
 WAIT SECONDS=8
 
 REFRESH
