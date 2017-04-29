@@ -1,4 +1,4 @@
-﻿VERSION BUILD=9030808 RECORDER=FX
+VERSION BUILD=9030808 RECORDER=FX
 TAB T=1
 TAB CLOSEALLOTHERS
 SET !LOOP -9999
@@ -6,24 +6,32 @@ URL GOTO=https://www.linkedin.com/mynetwork/
 REFRESH
 WAIT SECONDS=4
 TAG POS=1 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
-WAIT SECONDS=1
+WAIT SECONDS=0.2
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-tertiary-medium-muted<SP>mn-person-card__person-btn-ext--icon-only
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-tertiary-medium-muted<SP>mn-person-card__person-btn-ext--icon-only
+WAIT SECONDS=1.5
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-tertiary-medium-muted<SP>mn-person-card__person-btn-ext--icon-only
+WAIT SECONDS=1.5
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-tertiary-medium-muted<SP>mn-person-card__person-btn-ext--icon-only
+WAIT SECONDS=1.5
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-tertiary-medium-muted<SP>mn-person-card__person-btn-ext--icon-only
+WAIT SECONDS=1.5
 TAG POS=2 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
-WAIT SECONDS=1
+WAIT SECONDS=1.5
 TAG POS=3 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
-WAIT SECONDS=1
+WAIT SECONDS=0.2
 TAG POS=4 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
-WAIT SECONDS=1
+WAIT SECONDS=0.2
 TAG POS=5 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
-WAIT SECONDS=1
+WAIT SECONDS=0.2
 TAG POS=6 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
-WAIT SECONDS=1
+WAIT SECONDS=0.2
 TAG POS=7 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
-WAIT SECONDS=1
+WAIT SECONDS=0.2
 TAG POS=8 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
-WAIT SECONDS=1
+WAIT SECONDS=0.2
 TAG POS=9 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
-WAIT SECONDS=1
-TAG POS=10 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
 WAIT SECONDS=8
 
 REFRESH
