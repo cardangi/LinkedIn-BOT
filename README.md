@@ -42,3 +42,5 @@
 
 ### Issues
 This is on beta test, any issue or problem, tell me with github issues options. Thanks.
+
+Known issue: Sometimes it will appear always the same friends. Just clean the cache, logout and login again and it will works.
