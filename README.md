@@ -8,6 +8,7 @@
 ## Configuration
 ### Automatic Way (With Python)
 (Download all files)
+
 1 - Move the file MacroLinkedin.iim to C:\Users\Computador\Documents\iMacros\Macros
 
 2 - Open Firefox 47
