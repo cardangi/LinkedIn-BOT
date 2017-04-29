@@ -39,7 +39,7 @@
 
 4 - Access https://www.linkedin.com/mynetwork/ and login in your linkedin account
 
-5 - Click in MacroLinkedin.iim, "Use (loop), and max loop set to 10000"
+5 - Click in MacroLinkedin.iim, and then "USE"
 
 
 ### Issues
