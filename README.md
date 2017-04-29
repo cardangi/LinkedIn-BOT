@@ -1,7 +1,7 @@
 # LinkedIn-Connections-BOT
 
 ## Requirements
- - Firefox Mozilla 47 (download link: https://releases.mozilla.org/pub/firefox/releases/48.0.2/win32/pt-BR/)
+ - Firefox Mozilla 47 (download link: https://releases.mozilla.org/pub/firefox/releases/48.0.2/win32/pt-BR/) (newer options dont work)
  - Python 3.4+ (optional)
  - iMacros installed on Mozilla (download link: https://addons.mozilla.org/pt-br/firefox/addon/imacros-for-firefox/)
  
