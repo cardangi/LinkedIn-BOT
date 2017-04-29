@@ -1,4 +1,4 @@
-# LinkedIn-Connections-BOT
+# LinkedIn BOT
 
 ## Requirements
  - Firefox Mozilla 47 (download link: https://releases.mozilla.org/pub/firefox/releases/48.0.2/win32/pt-BR/) (newer options dont work)
