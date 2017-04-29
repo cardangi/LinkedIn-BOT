@@ -27,7 +27,7 @@
 9 - py BotdoLinkedin.py
 
 ### Manually Way (Without Python)
-(Download all files)
+(Download all files) (Maybe not work without python calling the params, because this uses !loop -9999. Use if python, if you have installed it on computer.)
 1 - Move the file MacroLinkedin.iim to C:\Users\Computador\Documents\iMacros\Macros
 
 2 - Open Firefox 47
