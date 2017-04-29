@@ -44,3 +44,6 @@
 This is on beta test, any issue or problem, tell me with github issues options. Thanks.
 
 Known issue: Sometimes it will appear always the same friends. Just clean the cache, logout and login again and it will works.
+
+### Liability
+I don't take no liability for the usage of this. At LinkedIn terms, they say that's prohibited the use of BOTS. I think you are not going to get problems, because the macro recuse some requests, and accept some others, wait 1.5 seconds for clicking in add friend, and refresh like 3~4 times (Made for getting friends at normal-human speed). But I give no guarantee that you won't get some 24~48 hours block, or any bigger problem. Careful usage, please!
