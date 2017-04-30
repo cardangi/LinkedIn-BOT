@@ -57,8 +57,10 @@ python BotdoLinkedin.py --v2
 
 8 - Close Firefox
 
-9 - py BotdoLinkedin.py --v1
-
+```py BotdoLinkedin.py --v1
+or
+python BotdoLinkedin.py --v1
+```
 ### Manually Way (Without Python)
 (Download all files) (Maybe not work without python calling the params, because this uses !loop -9999. Use if python, if you have installed it on computer.)
 
