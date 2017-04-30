@@ -7,6 +7,8 @@
  - iMacros installed on Mozilla (download link: https://addons.mozilla.org/pt-br/firefox/addon/imacros-for-firefox/)
  
 ## VERSION 2 [BETA] Configuration
+(Login in your LinkedIn account in Mozilla Firefox)
+
 1 - Move the file MacroLinkedinV2.iim to C:\Users\ YOUR USER \Documents\iMacros\Macros
 
 2 - Open Firefox 47
