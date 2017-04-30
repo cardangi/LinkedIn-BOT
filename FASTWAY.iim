@@ -1,0 +1,200 @@
+﻿VERSION BUILD=9030808 RECORDER=FX
+TAB T=1
+TAB CLOSEALLOTHERS
+SET !LOOP -9999
+SET !ERRORIGNORE YES
+URL GOTO=https://www.linkedin.com/mynetwork/
+REFRESH
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+WAIT SECONDS=0.2
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-tertiary-medium-muted<SP>mn-person-card__person-btn-ext--icon-only
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-tertiary-medium-muted<SP>mn-person-card__person-btn-ext--icon-only
+WAIT SECONDS=1.5
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-tertiary-medium-muted<SP>mn-person-card__person-btn-ext--icon-only
+WAIT SECONDS=1.5
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-tertiary-medium-muted<SP>mn-person-card__person-btn-ext--icon-only
+WAIT SECONDS=1.5
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-tertiary-medium-muted<SP>mn-person-card__person-btn-ext--icon-only
+WAIT SECONDS=1.5
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=15 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=16 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=17 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=18 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=19 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=20 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=21 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=22 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=23 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=24 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=25 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=26 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=27 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=28 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=29 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=30 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=31 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=32 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=33 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=34 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=35 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+WAIT SECONDS = 5
+TAG POS=36 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=37 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=38 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=39 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=40 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=41 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=42 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=43 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=44 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=45 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=46 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=47 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=48 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=49 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=50 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=51 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=52 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=53 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=54 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+WAIT SECONDS = 5
+TAG POS=55 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=56 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=57 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=58 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=59 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=60 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=61 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=62 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=63 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=64 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=65 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+WAIT SECONDS = 5
+TAG POS=55 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=56 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=57 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=58 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=59 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=60 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=61 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=62 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=63 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=64 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=65 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=55 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=56 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=57 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=58 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=59 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=60 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=61 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=62 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=63 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=64 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=65 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=55 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=56 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=57 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=58 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=59 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=60 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=61 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=62 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=63 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=64 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=65 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=55 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=56 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=57 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=58 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=59 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=60 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=61 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=62 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=63 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=64 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=65 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+WAIT SECONDS = 5
+TAG POS=55 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=56 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=57 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=58 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=59 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=60 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=61 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=62 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=63 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=64 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=65 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=55 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=56 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=57 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=58 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=59 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=60 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=61 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=62 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=63 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=64 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=65 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=55 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=56 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=57 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=58 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=59 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=60 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=61 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=62 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=63 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=64 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=65 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=55 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=56 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=57 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=58 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=59 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=60 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=61 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=62 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=63 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=64 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=65 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=55 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=56 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=57 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=58 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=59 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=60 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=61 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=62 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=63 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=64 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=65 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+REFRESH
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+WAIT SECONDS=1.5
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+WAIT SECONDS=0.2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+WAIT SECONDS=0.2
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+WAIT SECONDS=0.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+WAIT SECONDS=0.2
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+WAIT SECONDS=0.2
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:mn-person-card__person-btn-ext<SP>button-secondary-medium
+WAIT SECONDS=8
+
+REFRESH
