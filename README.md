@@ -84,3 +84,6 @@ Known issue: Sometimes it will appear always the same friends. Just clean the ca
 
 ### Liability
 I don't take no liability for the usage of this. At LinkedIn terms, they say that's prohibited the use of BOTS. I think you are not going to get problems, because the macro recuse some requests, and accept some others, wait 1.5 seconds for clicking in add friend, and refresh like 3 or 4 times (Made for getting friends at normal-human speed). But I give no guarantee that you won't get some 24 to 48 hours block, or any bigger problem. Careful usage, please!
+
+#### *Plot Twist*
+You can use the version 1 with the version 2 in the same time. It will  get you LIKELY 10.000 friends in 1 day (average calculating the media 100/hour with v1, and 300/hour with v2)
