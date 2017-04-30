@@ -6,11 +6,40 @@
  - Python 3.4+ (optional)
  - iMacros installed on Mozilla (download link: https://addons.mozilla.org/pt-br/firefox/addon/imacros-for-firefox/)
  
-## Configuration
+## VERSION 2 [BETA] Configuration
+1 - Move the file MacroLinkedinV2.iim to C:\Users\ YOUR USER Documents\iMacros\Macros
+
+2 - Open Firefox 47
+
+3 - Open iMacros
+
+4 - You will see MacroLinkedinV2.iim, right click, "Add to Bookmark / Adicionar aos favoritos"
+
+5 - Click in OK
+
+6 - Access https://www.linkedin.com/search/results/people/
+
+7 - Select 2° and 3°+ (In filter people)
+
+8 - Unmark 1° Connections Option
+
+9 - Select the citys that you want it to works. (For example, if you only want from your city, just select your city)
+
+10 - CTRL-C in the URL
+
+11 - Open MacroLinkedinV2.iim with some text-editor
+
+12 - Change the commented area for your url (see photo below)
+
+![HOWTO](howto.png)
+
+13 - py / python BotdoLinkedin.py --v2
+
+## Configuration V1
 ### Automatic Way (With Python)
 (Download all files)
 
-1 - Move the file MacroLinkedin.iim to C:\Users\Computador\Documents\iMacros\Macros
+1 - Move the file MacroLinkedin.iim to C:\Users\ YOUR USER \Documents\iMacros\Macros 
 
 2 - Open Firefox 47
 
@@ -26,7 +55,7 @@
 
 8 - Close Firefox
 
-9 - py BotdoLinkedin.py
+9 - py BotdoLinkedin.py --v1
 
 ### Manually Way (Without Python)
 (Download all files) (Maybe not work without python calling the params, because this uses !loop -9999. Use if python, if you have installed it on computer.)
