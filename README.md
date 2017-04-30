@@ -1,4 +1,4 @@
-# LinkedIn BOT
+# LinkedIn BOT V2
 ![Yeah bro, it works!](poc.png)
 
 ## Requirements
