@@ -59,7 +59,8 @@ python BotdoLinkedin.py --v2
 
 8 - Close Firefox
 
-```py BotdoLinkedin.py --v1
+```
+py BotdoLinkedin.py --v1
 or
 python BotdoLinkedin.py --v1
 ```
