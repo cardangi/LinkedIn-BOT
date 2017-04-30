@@ -87,3 +87,5 @@ I don't take no liability for the usage of this. At LinkedIn terms, they say tha
 
 #### *Plot Twist*
 You can use the version 1 with the version 2 in the same time. It will  get you LIKELY 10.000 friends in 1 day (average calculating the media 100/hour with v1, and 300/hour with v2)
+
+Just open one CMD/Terminal in sandbox or virtual machine, and another as common user (or use 2 computers)
