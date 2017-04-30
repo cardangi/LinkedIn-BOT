@@ -1,0 +1,2417 @@
+﻿VERSION BUILD=9030808 RECORDER=FX
+TAB T=1
+TAB CLOSEALLOTHERS
+'CODADO POR CARLOS DANIEL GIOVANELLA
+SET !ERRORIGNORE YES
+SET !LOOP -9999
+SET !TIMEOUT_STEP 2
+'MUDE A URL ABAIXO PELA SUA URL GERADA
+
+URL GOTO=https://www.linkedin.com/search/results/people/?facetGeoRegion=[%22br%3A6425%22]&facetNetwork=[%22S%22]&origin=FACETED_SEARCH&page=1
+
+'MUDE A URL ACIMA PELA SUA URL GERADA
+REFRESH
+WAIT SECONDS=4
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:2
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:3
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:4
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:5
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:6
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:7
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:8
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:9
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:10
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:11
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:12
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:13
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:14
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:15
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:16
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:17
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:18
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:19
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:20
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:21
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:22
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:23
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:24
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:25
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:26
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:27
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:28
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:29
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:30
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:31
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:32
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:33
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:34
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:35
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:36
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:37
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:38
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:39
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:40
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:41
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:42
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:43
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:44
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:45
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:46
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:47
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:48
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:49
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:50
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:51
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:52
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:53
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:54
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:55
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
+
+TAG POS=1 TYPE=BUTTON ATTR=TXT:56
+
+
+WAIT SECONDS=5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=1.5
+TAG POS=2 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=3 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=2
+TAG POS=4 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=5 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+WAIT SECONDS=1.2
+TAG POS=6 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=7 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=2.3
+TAG POS=8 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=9 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+WAIT SECONDS=4
+TAG POS=10 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=11 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=12 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=13 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+TAG POS=14 TYPE=BUTTON ATTR=CLASS:search-result__actions--primary<SP>button-secondary-medium<SP>m5
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:button-primary-large<SP>ml3
+REFRESH
+
