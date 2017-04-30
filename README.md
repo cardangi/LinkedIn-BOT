@@ -32,9 +32,11 @@
 12 - Change the commented area for your url (see photo below)
 
 ![HOWTO](howto.png)
-
-13 - py / python BotdoLinkedin.py --v2
-
+```
+py BotdoLinkedin.py --v2
+or
+python BotdoLinkedin.py --v2
+```
 ## Configuration V1
 ### Automatic Way (With Python)
 (Download all files)
